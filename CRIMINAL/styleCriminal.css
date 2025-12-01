@@ -1,0 +1,61 @@
+/*COR, BORDA, DISPOSIÇÃO DO TEXTO E ESTILO DAS SESSÕES DOS ARTIGOS
+ATUAIS*/
+.container-artigos
+{
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+.container-sections
+{
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row; 
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
+}
+
+/*MANTENDO O HEARDER DENTRO DE SECTIONS, MAS ACIMA, E NÃO AO LADO DOS DEMAIS*/
+.container-sections>header
+{
+    padding: 10px;
+    width: 100%;
+    flex-basis: 100%;
+    display: block;
+}
+
+/*REMOVER MARCADORES DA LISTA*/
+ul
+{
+    list-style-type:none;
+}
+
+/*PERMITIR QUE UM ARTIGO FIQUE AO LADO DO OUTRO*/
+.container-artigos
+{   
+    display: flex;
+    
+}
+
+/*COR DE FUNDO DA PÁGINA*/
+body
+{
+    background-color:rgb(153, 227, 246);
+    
+}
+
+/*COR DO HEARDER (TÍTULO) PRINCIPAL - NESTE CASO: HARLEY QUINN*/
+body>header
+{
+    color: brown;
+}
+
+/*TAMANHO DA IMAGEM*/
+img
+{
+    width: 400px;
+    height: auto;
+}
