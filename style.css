@@ -15,7 +15,7 @@ body>header
 {   
     color:rgb(240, 13, 13) ;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 }
 .container-sections>header
 {
@@ -55,4 +55,9 @@ footer
 h1
 {
     padding: 20px;
+}
+footer
+{
+    color: red;
+    font-size: 20px;
 }
