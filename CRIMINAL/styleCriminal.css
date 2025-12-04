@@ -5,7 +5,6 @@ ATUAIS*/
     display: flex;
     color:red;
     font-size: 20px;
-    flex-wrap: wrap;
     gap: 20px;
 }
 .container-sections
