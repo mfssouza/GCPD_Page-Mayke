@@ -16,6 +16,8 @@ body>header
     color:rgb(240, 13, 13) ;
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .container-sections>header
 {
@@ -26,7 +28,6 @@ body>header
 }
 .container-sections
 {
-    
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: row; 
@@ -46,7 +47,6 @@ body
     background-attachment:fixed;
     margin: 0;
     padding: 40px;
-    
 }
 footer
 {
@@ -66,3 +66,5 @@ a:hover
 {
     color:blue;
 }
+
+
