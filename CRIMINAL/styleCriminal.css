@@ -1,4 +1,4 @@
-/*COR, BORDA, DISPOSIÇÃO DO TEXTO E ESTILO DAS SESSÕES DOS ARTIGOS
+/*COR, BORDA, TAMANHO, DISPOSIÇÃO DO TEXTO E ESTILO DAS SESSÕES DOS ARTIGOS
 ATUAIS*/
 .container-artigos
 {
@@ -49,7 +49,6 @@ body
     background-image: url('../IMAGENS/GCPD_1.webp');
     background-size: cover;
     background-position: center;
-    background-attachment:fixed;
     padding: 10px;
     
 }
