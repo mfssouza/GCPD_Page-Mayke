@@ -5,7 +5,6 @@ ATUAIS*/
     display: flex;
     color:red;
     font-size: 20px;
-    gap: 20px;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,7 +12,6 @@ ATUAIS*/
 .container-sections
 {
     flex-wrap: wrap;
-    gap: 20px;
     flex-direction: row; 
     display: flex;
     border-style: solid;
@@ -27,7 +25,6 @@ ATUAIS*/
 /*MANTENDO O HEARDER DENTRO DE SECTIONS, MAS ACIMA, E NÃO AO LADO DOS DEMAIS*/
 .container-sections>header
 {
-    padding: 10px;
     width: 100%;
     flex-basis: 100%;
     display: block;
@@ -54,7 +51,7 @@ body
     background-position: center;
     background-attachment:fixed;
     margin: 0;
-    padding: 40px;
+    padding: 10px;
     
 }
 
@@ -67,7 +64,7 @@ body>header
 /*TAMANHO DA IMAGEM*/
 img
 {
-    width: 530px;
+    width: 500px;
     max-width: 100%;
     height: auto;
    
