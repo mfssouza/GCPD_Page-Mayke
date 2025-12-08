@@ -46,7 +46,7 @@ ul
 /*COR DE FUNDO DA PÁGINA*/
 body
 {
-    background-image: url('/IMAGENS/GCPD_1.webp');
+    background-image: url('../IMAGENS/GCPD_1.webp');
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
