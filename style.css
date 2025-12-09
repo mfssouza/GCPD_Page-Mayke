@@ -17,7 +17,6 @@ body>header
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .container-sections>header
 {
@@ -46,7 +45,7 @@ body
     background-position: center;
     background-attachment:fixed;
     margin: 0;
-    padding: 40px;
+    padding: 10px;
 }
 footer
 {
