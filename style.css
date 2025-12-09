@@ -30,7 +30,7 @@ body>header
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: row; 
-    display: flex;
+    display: inline-block;
     border-style: solid;
     border-color: white;
     align-items: center;
