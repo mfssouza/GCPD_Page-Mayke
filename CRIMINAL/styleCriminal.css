@@ -65,14 +65,14 @@ footer
     display: flex;
     color:red;
     flex-direction:column;
-    
+    flex-wrap: nowrap;
 }
 .data_list2
 {
     display: flex;
     color:red;
     flex-direction:column;
-   
+    flex-wrap: nowrap;
 }
 li
 {
