@@ -62,17 +62,17 @@ footer
 /*COR, TAMANHO, DISPOSIÇÃO DO TEXTO E ESTILO DA DIV E LISTA DAS PÁGINAS*/
 .data_list1
 {
-    display: block;
+    display: flex;
     color:red;
     flex-direction:column;
-    justify-content: center;
+    
 }
 .data_list2
 {
-    display: block;
+    display: flex;
     color:red;
     flex-direction:column;
-    justify-content:center;
+    
     
 }
 li
