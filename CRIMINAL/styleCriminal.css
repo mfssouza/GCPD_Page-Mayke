@@ -72,12 +72,17 @@ footer
     display: flex;
     color:red;
     flex-direction:column;
-    
-    
+}
+.data_list1 li
+{
+    display: inline-block;
+}
+.data_list2 li
+{
+    display: inline-block;
 }
 li
 {
-    display: inline-block;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     padding: 4px;
