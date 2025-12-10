@@ -7,7 +7,7 @@
     border-style: solid;
     border: 2px solid black;
     padding: 10px;
-    width: fit-content;
+   
     background-color: rgba(255, 255, 255, 0.6);
     border-color: white;
 }
@@ -61,19 +61,14 @@ footer
 }
 
 /*COR, TAMANHO, DISPOSIÇÃO DO TEXTO E ESTILO DA DIV E LISTA DAS PÁGINAS*/
-.data_list1
-{
-    display: flex;
-    color:red;
-    flex-direction:column;
-    flex-wrap: nowrap;
-}
+.data_list1,
 .data_list2
 {
     display: flex;
     color:red;
     flex-direction:column;
     flex-wrap: nowrap;
+    list-style: none;
 }
 li
 {
