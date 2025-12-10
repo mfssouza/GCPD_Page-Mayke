@@ -65,17 +65,18 @@ footer
     display: flex;
     color:red;
     flex-direction:column;
-    flex-wrap: wrap;
+    
 }
 .data_list2
 {
     display: flex;
     color:red;
     flex-direction:column;
-    flex-wrap: wrap;
+   
 }
 li
 {
+    flex-wrap: nowrap;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     padding: 4px;
