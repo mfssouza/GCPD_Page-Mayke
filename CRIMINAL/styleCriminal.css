@@ -1,7 +1,7 @@
 
 .container-sections
 {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row; 
     display: flex;
     border-style: solid;
