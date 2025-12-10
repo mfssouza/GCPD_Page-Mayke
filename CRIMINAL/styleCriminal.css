@@ -1,14 +1,4 @@
-/*COR, BORDA, TAMANHO, DISPOSIÇÃO DO TEXTO E ESTILO DAS SESSÕES DOS ARTIGOS
-ATUAIS*/
-.container-artigos
-{
-    display: flex;
-    color:red;
-    font-size: clamp(16px, 2.2vw, 22px);
-    flex-direction:row;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
+
 .container-sections
 {
     flex-wrap: wrap;
@@ -36,14 +26,7 @@ ul
     list-style-type:none;
 }
 
-/*PERMITIR QUE UM ARTIGO FIQUE AO LADO DO OUTRO*/
-.container-artigos
-{   
-    display: flex;
-    
-}
-
-/*COR DE FUNDO DA PÁGINA*/
+/*BACKGROUND*/
 body
 {
     background-image: url('../IMAGENS/GCPD_1.webp');
@@ -53,7 +36,7 @@ body
     
 }
 
-/*COR DO HEARDER (TÍTULO) PRINCIPAL - NESTE CASO: HARLEY QUINN*/
+/*COR DO HEARDER (TÍTULO) PRINCIPAL*/
 body>header
 {
     color: red;
@@ -75,4 +58,28 @@ footer
 {
     color: red;
     font-size: 20px;
+}
+
+/*COR, TAMANHO, DISPOSIÇÃO DO TEXTO E ESTILO DA DIV E LISTA DAS PÁGINAS*/
+.data_list1
+{
+    display: block;
+    color:red;
+    flex-direction:column;
+    justify-content: center;
+}
+.data_list2
+{
+    display: block;
+    color:red;
+    flex-direction:column;
+    justify-content:center;
+    
+}
+li
+{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 4px;
+    font-size: clamp(16px, 2.2vw, 22px);
 }
