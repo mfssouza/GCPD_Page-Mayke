@@ -1,13 +1,15 @@
 
+.flex-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
 .container-sections
 {
     flex-wrap: wrap;
     display: flex;
-    white-space: nowrap;
     border-style: solid;
     border: 2px solid black;
     padding: 10px;
-   
     background-color: rgba(255, 255, 255, 0.6);
     border-color: white;
 }
@@ -15,9 +17,8 @@
 /*MANTENDO O HEARDER DENTRO DE SECTIONS, MAS ACIMA, E NÃO AO LADO DOS DEMAIS*/
 .container-sections>header
 {
+    flex: 0 0 100%;  /* Ocupa a linha inteira */
     width: 100%;
-    flex-basis: 100%;
-    display: block;
 }
 
 /*REMOVER MARCADORES DA LISTA*/
@@ -69,10 +70,11 @@ footer
     flex-direction:column;
     flex-wrap: nowrap;
     list-style: none;
+    width: auto;
+    white-space: nowrap;
 }
 li
 {
-    flex-wrap: nowrap;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     padding: 4px;
