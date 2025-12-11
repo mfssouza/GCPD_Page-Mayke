@@ -74,6 +74,7 @@ footer
     list-style: none;
     width: auto;
     white-space: nowrap;
+    align-content: center;
 }
 li
 {
