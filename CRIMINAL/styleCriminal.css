@@ -9,11 +9,13 @@
     display: flex;
     border-style: solid;
     border: 2px solid black;
-    padding: 10px;
     background-color: rgba(255, 255, 255, 0.6);
     border-color: white;
 }
-
+.container-sections > header
+{
+    padding-left: 30px;
+}
 /*MANTENDO O HEARDER DENTRO DE SECTIONS, MAS ACIMA, E NÃO AO LADO DOS DEMAIS*/
 .container-sections>header
 {
@@ -77,6 +79,6 @@ li
 {
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
-    padding: 4px;
+    padding-top: 15px;
     font-size: clamp(16px, 2.2vw, 22px);
 }
