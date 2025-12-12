@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GCPD</title>
+    <link rel="stylesheet" href="cdnjs.cloudflare.com">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,33 +19,42 @@
     
 <!--|--------------------CONTEÚDO DA PÁGINA----------------------|-->
     <main>
+
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" placeholder="N° ou palavra chave..." name="search" class="search-input">
+                <button type="submit" class="search-button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+
 <!--|-------------------Section dos artigos----------------------|-->
-        <section class = "container-artigos">
+        <div class = "container-topicos">
 
 <!--|------------------------ARTIGO 1----------------------------|-->
             
-        <article>
-                <ul>
-                    <h2>
-                        RECENTES       
-                    </h2>
-                </ul>
-            </article>
+            <div class = "container-artigos">
+              
+                <h2>
+                    RECENTES       
+                </h2>
+               
+            </div>
 <!--|------------------FIM DO ARTIGO 1---------------------------|-->
 
-        </section>
-            <section class = "container-artigos">
+            
 <!--|------------------------ARTIGO 2----------------------------|-->
-                <article>
-                    <ul>
-                        <h2>
-                            UNDER INVESTIGATION       
-                        </h2>
-                    </ul>
-                </article>
+            <div class = "container-artigos">    
+                
+                <h2>
+                    UNDER INVESTIGATION       
+                </h2>
+                
+            </div>    
 <!--|------------------FIM DO ARTIGO 2---------------------------|-->
-
-            </section>
+        </div>
     </main>
 
 </body>
