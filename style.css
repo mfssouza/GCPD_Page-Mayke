@@ -89,15 +89,17 @@ li
     border-color: #f50404; /* Muda a cor da borda ao clicar */
 }
 .search-button {
-    
     right: 5px; /* Ajusta a posição à direita */
+    background: none;
     border-style: solid;
+    border-color: #f50404;
     cursor: pointer;
-    padding: 28px;
-    font-size: 16px;
-    right: 5px; /* Ajusta a posição à direita */
-    border-color: none;
+    color: #f0eeee;
+}
+#lupa
+{
+
 }
 .search-button:hover {
-    color: #f50505;
+    color: #f70505;
 }

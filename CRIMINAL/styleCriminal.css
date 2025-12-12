@@ -12,13 +12,11 @@
     background-color: rgba(255, 255, 255, 0.6);
     border-color: white;
 }
+
+/*MANTENDO O HEARDER DENTRO DE SECTIONS, MAS ACIMA, E NÃO AO LADO DOS DEMAIS*/
 .container-sections > header
 {
-    padding-left: 30px;
-}
-/*MANTENDO O HEARDER DENTRO DE SECTIONS, MAS ACIMA, E NÃO AO LADO DOS DEMAIS*/
-.container-sections>header
-{
+    padding-left: 15px;
     flex: 0 0 100%;  /* Ocupa a linha inteira */
     width: 100%;
 }
