@@ -16,16 +16,21 @@ body>header
 }
 .recent_cases
 {
-    border-style: solid;
     display: flex;
-    flex-direction: row;
-    padding-left: 5px;
+    align-items: flex-start;
+    gap: 15px;
+    border-style: solid;
 }
-
+.imagens_cases
+{
+    width: 280px;     /* 🔒 tamanho fixo da imagem no desktop */
+    flex-shrink: 0;   /* impede que a imagem encolha */
+}
 .imagens_cases img
 {
-    max-width: 100%;  
-    height: auto;     
+    width: 100%;
+    height: auto;
+    display: block;  
 }
 .description_cases
 {
