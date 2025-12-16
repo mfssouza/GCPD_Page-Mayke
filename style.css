@@ -11,7 +11,9 @@ body>header
     border-style:solid;
     padding: 10px;
     padding-top: 5px;
-    width: 60%;
+    width: 80%;
+    margin: 5px;
+    
 }
 .recent_cases
 {
@@ -36,7 +38,6 @@ body>header
 {   
     color:rgb(240, 13, 13) ;
     display:flex;
-    flex-direction:row;
     flex-wrap: wrap;
 }
 .container-sections>header
@@ -88,15 +89,13 @@ li
     font-family:'Times New Roman', Times, serif;
     padding: 4px;
 }
-.container-artigos
+.emInvestigacao
 {
     border-style: solid;
     padding-left:10px;
     padding-right: 10px;
     align-items: center;
-    margin-left: 40px;
-    padding-bottom: 20px;
-    
+    margin: 5px;
 }
 .search-container form {
     position: relative; /* Define o contêiner como relativo para posicionar o botão absolutamente */
