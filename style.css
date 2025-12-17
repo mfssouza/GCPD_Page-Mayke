@@ -1,11 +1,19 @@
+
+/*------------|REMOVER MARCADORES(PONTINHOS) DA UL (LISTA NÃO ORDENADA)|--------------*/
 ul
 {
     list-style-type:none;
 }
+
+/*------------|COR DA HEADER(TÍTULOS) DE TODAS AS PÁGINAS|----------------------------*/
 body>header
 {
     color: rgb(248, 5, 5);
 }
+
+/*------------|CASES|-----------------------------------------------------------------*/
+
+/*------------|DIV CLASS "recentes"|--------------------------------------------------*/
 .recentes
 {
     border-style:solid;
@@ -22,16 +30,12 @@ body>header
     border-style: solid;
     flex-direction: column;
 }
-.imagens_cases
-{
-    width: 100%;   
-    flex-shrink: 0;   /* impede que a imagem encolha */
-}
+
 .imagens_cases img
 {
-    width: 80%;
-    height: auto;
-    display: block;  
+    max-width: 100%;
+    height: auto;  
+    object-fit: contain;
 }
 .description_cases
 {
@@ -39,6 +43,24 @@ body>header
     width: auto;
 }
 
+/*------------|DIV CLASS "emInvestigacao"|--------------------------------------------------*/
+.emInvestigacao
+{
+    border-style: solid;
+    padding-left:10px;
+    padding-right: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 1;
+}
+.emInvestigacao > ul
+{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+/*------------|MAIN CLASS "container-topicos"|--------------------------------------------------*/
 .container-topicos
 {   
     color:rgb(240, 13, 13) ;
@@ -47,6 +69,8 @@ body>header
     align-items: stretch;
 
 }
+
+/*------------|PERMITE QUE AS DIVS FIQUEM EMBAIXO DA OUTRA CASO A TELA NÃO TENHA ESPAÇO SUFICIENTE|--*/
 @media (max-width: 900px) {
     .container-topicos {
         flex-direction: column;
@@ -58,6 +82,8 @@ body>header
         flex: none;
     }
 }
+
+/*------------|REGRAS ESPECIAIS PARA MANTER O TÍTULO DENTRO DA BORDA|---------------------------------*/
 .container-sections>header
 {
     color: rgb(247, 6, 6);
@@ -78,6 +104,8 @@ body>header
     padding: 10px;
     margin: 40px; 
 }
+
+/*------------|BACKGROUND DAS PÁGINAS|--------------------------------------------------*/
 body
 {
     background-image: url('IMAGENS/GCPD_1.webp');
@@ -87,11 +115,15 @@ body
     margin: 0;
     padding: 10px;
 }
+
+/*------------|RODAPÉ DAS PÁGINAS|----------------------------------------------------*/
 footer
 {
     color: red;
     font-size: 20px;
 }
+
+/*------------|ESTILO DOS LINKS DAS PÁGINAS|-------------------------------------------*/
 a
 {
     color: red;
@@ -101,27 +133,18 @@ a:hover
 {
     color:rgb(0, 0, 0);
 }
+
+/*------------|ESTILO DAS LI(LISTAS) DAS PÁGINAS|---------------------------------------*/
 li
 {
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
     padding: 4px;
+
 }
-.emInvestigacao
-{
-    border-style: solid;
-    padding-left:10px;
-    padding-right: 10px;
-    align-items: center;
-    box-sizing: border-box;
-    flex: 1;
-}
-.emInvestigacao > ul
-{
-    font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
-    padding-left: 20px;
-}
+
+/*------------|BOTÃO E BARRA DE PESQUISA DE CASES|--------------------------------------*/
+
 .search-container form {
     position: relative; /* Define o contêiner como relativo para posicionar o botão absolutamente */
     display: flex;
