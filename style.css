@@ -28,22 +28,20 @@ body>header
     display: flex;
     align-items: flex-start;
     border-style: solid;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
-.imagens_cases
-{
-    flex: 0 0 220px; 
-    max-width: 260px;
-}
-.imagens_cases img
-{
-    width: 100%;
+
+.img-case {
+    float: right;
+    width: 660px;        /* tamanho padrão */
+    max-width: 40%;      /* adapta em telas menores */
+    margin: 0 0 10px 15px;
     height: auto;
-    display: block;
-    object-fit: contain;
 }
 .description_cases
 {
-    padding: 5px;
+    padding: 10px;
     flex: 1;
 }
 
@@ -56,12 +54,15 @@ body>header
     align-items: center;
     box-sizing: border-box;
     flex: 1;
+    
 }
-.emInvestigacao > ul
+.list_of_cases
 {
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
-    padding-left: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /*------------|MAIN CLASS "container-topicos"|--------------------------------------------------*/
@@ -88,13 +89,12 @@ body>header
 }
 
 @media (max-width: 768px) {
-    .recent_cases {
-        flex-direction: column;
-    }
-
-    .imagens_cases {
+    .img-case {
+        float: none;
+        display: block;
+        width: 100%;
         max-width: 100%;
-        flex: none;
+        margin: 0 0 15px 0;
     }
 }
 /*------------|REGRAS ESPECIAIS PARA MANTER O TÍTULO DENTRO DA BORDA|---------------------------------*/
@@ -160,24 +160,26 @@ li
 /*------------|BOTÃO E BARRA DE PESQUISA DE CASES|--------------------------------------*/
 
 .search-container form {
-    position: relative; /* Define o contêiner como relativo para posicionar o botão absolutamente */
     display: flex;
     align-items: center;
-    margin:40px;
+    margin:20px;
+    gap: 8px;
+    max-width: 30%;
 }
 .search-input {
-    padding: 10px 40px 10px 15px; /* Adiciona padding à direita para evitar que o texto fique por baixo do ícone */
-    font-size: 24px;
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 1.2rem;
     border: 4px solid #fdfdfd;
     outline: none;
-    width: 300px;
     transition: border-color 0.3s;
 }
 .search-input:focus {
     border-color: #f50404; /* Muda a cor da borda ao clicar */
 }
 .search-button {
-    right: 5px; /* Ajusta a posição à direita */
+    flex: 0 0 auto;
+    padding: 6px;
     background: none;
     border-style: solid;
     border-color: #f50404;
@@ -185,9 +187,19 @@ li
 }
 #lupa
 {
-    width: 47px;  /* Ajuste este valor para o tamanho desejado (ex: 16px, 24px) */
+    width: 34px;  /* Ajuste este valor para o tamanho desejado (ex: 16px, 24px) */
     height: auto; /* Mantém a proporção original da imagem */
+    display: block;
 }
 .search-button:hover {
     color: #f70505;
+}
+
+@media (max-width: 600px) {
+    .search-input {
+        font-size: 1rem;
+    }
+    #lupa {
+        width: 28px;
+    }
 }
