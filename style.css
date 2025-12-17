@@ -28,22 +28,19 @@ body>header
     display: flex;
     align-items: flex-start;
     border-style: solid;
+    border-radius: 20px;
 }
-.imagens_cases
-{
-    flex: 0 0 220px; 
-    max-width: 260px;
-}
-.imagens_cases img
-{
-    width: 100%;
+
+.img-case {
+    float: right;
+    width: 660px;        /* tamanho padrão */
+    max-width: 40%;      /* adapta em telas menores */
+    margin: 0 0 10px 15px;
     height: auto;
-    display: block;
-    object-fit: contain;
 }
 .description_cases
 {
-    padding: 5px;
+    padding: 10px;
     flex: 1;
 }
 
@@ -88,13 +85,12 @@ body>header
 }
 
 @media (max-width: 768px) {
-    .recent_cases {
-        flex-direction: column;
-    }
-
-    .imagens_cases {
+    .img-case {
+        float: none;
+        display: block;
+        width: 100%;
         max-width: 100%;
-        flex: none;
+        margin: 0 0 15px 0;
     }
 }
 /*------------|REGRAS ESPECIAIS PARA MANTER O TÍTULO DENTRO DA BORDA|---------------------------------*/
