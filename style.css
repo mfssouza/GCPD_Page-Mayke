@@ -107,16 +107,11 @@ body>header
 }
 .container-sections
 {
-    flex-wrap: wrap;
-    gap: 20px;
-    flex-direction: row; 
-    display: inline-block;
+    display: flex;
+    align-items:flex-start;
     border-style: solid;
-    border-color: white;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    margin: 40px; 
+    border-color: red;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 /*------------|BACKGROUND DAS PÁGINAS|--------------------------------------------------*/
